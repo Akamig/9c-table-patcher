@@ -9,23 +9,24 @@
     "deploy": "touch build/.nojekyll && gh-pages -d build -t true"
   },
   "devDependencies": {
-    "@popperjs/core": "^2.11.6",
-    "@sveltejs/adapter-auto": "^1.0.0",
-    "@sveltejs/adapter-static": "^1.0.1",
-    "@sveltejs/kit": "^1.0.0",
-    "autoprefixer": "^10.4.7",
+    "@popperjs/core": "^2.11.8",
+    "@sveltejs/adapter-auto": "^2.1.0",
+    "@sveltejs/adapter-static": "^2.0.3",
+    "@sveltejs/kit": "^1.23.0",
+    "autoprefixer": "^10.4.15",
     "classnames": "^2.3.2",
-    "flowbite": "^1.6.2",
-    "flowbite-svelte": "^0.29.11",
-    "gh-pages": "^4.0.0",
-    "postcss": "^8.4.14",
+    "flowbite": "^1.8.1",
+    "flowbite-svelte": "^0.44.4",
+    "gh-pages": "^6.0.0",
+    "postcss": "^8.4.28",
     "postcss-load-config": "^4.0.1",
-    "svelte": "^3.54.0",
-    "svelte-awesome-icons": "^0.2.11",
-    "svelte-preprocess": "^4.10.7",
-    "tailwindcss": "^3.1.5",
-    "vite": "^4.0.0",
-    "vite-plugin-node-polyfills": "^0.7.0"
+    "svelte": "^4.2.0",
+    "svelte-awesome-icons": "^0.5.5",
+    "svelte-preprocess": "^5.0.4",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9",
+    "vite-plugin-node-polyfills": "^0.11.3"
   },
   "type": "module",
   "dependencies": {
@@ -33,7 +34,7 @@
     "@planetarium/account-web3-secret-storage": "^3.2.0",
     "csv": "^6.3.2",
     "filepond": "^4.30.4",
-    "luxon": "^3.2.1",
+    "luxon": "^3.4.1",
     "svelte-filepond": "^0.2.0"
   }
 }

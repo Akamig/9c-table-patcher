@@ -1,5 +1,5 @@
 export const getRpcNodeList = async (rpcList) => {
-  const resp = await fetch("https://download.nine-chronicles.com/9c-launcher-config.json");
+  const resp = await fetch("https://download.nine-chronicles.com/main/config.json");
   if (resp.status === 200) {
     const r = await resp.json();
     rpcList = r.RemoteNodeList ?? [];
